@@ -9,7 +9,6 @@ class RentalSystem {
         Motorcycle motorcycle = new Motorcycle("Neiman Marcus", 70);
         rentVehicle(motorcycle, 5);
     }
-
     public void rentVehicle(Vehicle vehicle, int rentalDays) {
         Date rentalDate = new Date();
         double rentalCost = vehicle.calculateRentalCost(rentalDays);
